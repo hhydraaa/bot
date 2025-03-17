@@ -1,0 +1,31 @@
+{
+  "name": "csgo-code-checker-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that tracks CSGO promotional codes from followed channels",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js",
+    "cleanup-commands": "node cleanup-commands.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "csgo",
+    "codes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.7.0",
+    "sharp": "^0.33.5",
+    "sqlite3": "^5.1.6",
+    "tesseract.js": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
